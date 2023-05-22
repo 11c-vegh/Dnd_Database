@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Club",
+        "price": "2sp",
+        "damage":{
+            "type": "slashing",
+            "amount": "1d4"
+        },
+        "weight": "2lbs",
+        "property": "light"
+    },
+    {
+        "name": "Dagger",
+        "price": "2gp",
+        "damage":{
+            "type": "piercing",
+            "amount": "1d4"
+        },
+        "weight": "1lbs",
+        "property": "Finesse, light, thrown (range 20/60)"
+    },
+    {
+        "name": "Greatclub",
+        "price": "2sp",
+        "damage":{
+            "type": "bludgeoning",
+            "amount": "1d8"
+        },
+        "weight": "10lbs",
+        "property": "Two-handed"
+    },
+    {
+        "name": "Handaxe",
+        "price": "5gp",
+        "damage":{
+            "type": "slashing",
+            "amount": "1d6"
+        },
+        "weight": "2lbs",
+        "property": "Light, thrown (range 20/60)"
+    },
+    {
+        "name": "Javelin",
+        "price": "5sp",
+        "damage":{
+            "type": "piercing",
+            "amount": "1d6"
+        },
+        "weight": "2lbs",
+        "property": "Thrown (range 30/120)"
+    },
+    {
+        "name": "Light hammer",
+        "price": "2gp",
+        "damage":{
+            "type": "bludgeoning",
+            "amount": "1d4"
+        },
+        "weight": "2lbs",
+        "property": "Light, thrown (range 20/60)"
+    },
+    {
+        "name": "Mace",
+        "price": "5gp",
+        "damage":{
+            "type": "bludgeoning",
+            "amount": "1d6"
+        },
+        "weight": "4lbs",
+        "property": ""
+    },
+    {
+        "name": "Quarterstaff",
+        "price": "2sp",
+        "damage":{
+            "type": "bludgeoning",
+            "amount": "1d6"
+        },
+        "weight": "4lbs",
+        "property": "Versatile (1d8)"
+    },
+    {
+        "name": "Sickle",
+        "price": "1gp",
+        "damage":{
+            "type": "slashing",
+            "amount": "1d4"
+        },
+        "weight": "2lbs",
+        "property": "Light"
+    },
+    {
+        "name": "Spear",
+        "price": "1gp",
+        "damage":{
+            "type": "piercing",
+            "amount": "1d6"
+        },
+        "weight": "3lbs",
+        "property": "Thrown (range 20/60), versatile (1d8)"
+    }
+]
