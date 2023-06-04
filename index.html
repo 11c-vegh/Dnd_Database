@@ -10,14 +10,14 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">D&D Database</a>
+    <a class="navbar-brand" href="#bevezeto">D&D Database</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#leiras">D&D</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#fegyverek">Fegyverek</a>
@@ -34,15 +34,10 @@
 
     <div class="bevezeto">
     <h1>Üdvözöllek a D&D adatbázisban!</h1>
-    <p>Ez a rendszer a fantasztikus D&D univerzum kimeríthetetlen tárházát tárja eléd, ahol felfedezheted és tanulmányozhatod az erőket, területeket, szörnyeket, tárgyakat, karaktereket és még sok minden mást, amelyek ezt a lenyűgöző szerepjátékot meghatározzák.</p>
-
-    <p>A Dungeons & Dragons a legrégebbi és legnépszerűbb asztali szerepjáték, amelyet 1974-ben alkottak meg. Azóta világszerte milliók rajonganak érte, akik elmerülnek a kalandokban és izgalmas történetekben, amelyeket egyedülálló fantáziavilágokban élhetnek át. A játékot egy mestervezérelte, narratív rendszer jellemzi, amelyben a játékosok által készített karakterek egy fantasztikus világban küzdenek, felfedeznek és fejlődnek.</p>
-
-    <p>Ez az adatbázis célja, hogy segítse a játékosokat és mestereket a D&D világának felfedezésében és megértésében. Itt megtalálhatod a különböző karakterosztályokat és fajokat, a varázslatokat és képességeket, valamint a különféle tárgyakat és fegyvereket, amelyek lehetővé teszik számodra, hogy karaktereidet testreszabva és izgalmas kalandokba vezetve játszhass.</p>
-
-    <p>Vedd magadhoz a kockát, készíts karaktereket, és kezd el felfedezni a D&D világának végtelen lehetőségeit ebben az adatbázisban!</p>
+    <p>Ez a weboldal arra szolgál, hogy néhány dolgot a DnD 5. változatából gyorsan meg lehessen keresni. Ilyen például a varázslatok és fegyverek sebzése, vagy a varázslatok szintje.</p>
     </div>
 
+<<<<<<< HEAD
     <div id="fegyverek">
     <h2>Fegyverek</h2>
     <table class="table" id="table">
@@ -58,17 +53,48 @@
         <tbody id="tbody">
         </tbody>
       </table>
+=======
+    <div id="leiras">
+      <p>Ez a rendszer a fantasztikus D&D univerzum kimeríthetetlen tárházát tárja eléd, ahol felfedezheted és tanulmányozhatod az erőket, területeket, szörnyeket, tárgyakat, karaktereket és még sok minden mást, amelyek ezt a lenyűgöző szerepjátékot meghatározzák.</p>
+
+      <p>A Dungeons & Dragons a legrégebbi és legnépszerűbb asztali szerepjáték, amelyet 1974-ben alkottak meg. Azóta világszerte milliók rajonganak érte, akik elmerülnek a kalandokban és izgalmas történetekben, amelyeket egyedülálló fantáziavilágokban élhetnek át. A játékot egy mestervezérelte, narratív rendszer jellemzi, amelyben a játékosok által készített karakterek egy fantasztikus világban küzdenek, felfedeznek és fejlődnek.</p>
+
+      <p>Ez az adatbázis célja, hogy segítse a játékosokat és mestereket a D&D világának felfedezésében és megértésében. Itt megtalálhatod a különböző karakterosztályokat és fajokat, a varázslatokat és képességeket, valamint a különféle tárgyakat és fegyvereket, amelyek lehetővé teszik számodra, hogy karaktereidet testreszabva és izgalmas kalandokba vezetve játszhass.</p>
+
+      <p>Vedd magadhoz a kockát, készíts karaktereket, és kezd el felfedezni a D&D világának végtelen lehetőségeit ebben az adatbázisban!</p>
+    </div>
+
+    <div id="fegyverek" class="container">
+>>>>>>> 9874b07dc9fec0acdb6291c44d1ae21ae5c09404
       <div class="row">
-        <div class="col-lg-1 col-sm-12">
-            <button id="gomb" class="btn btn-dark">Convert price</button>
+        <h2>Fegyverek</h2>
+        <div class="col-sm-9 col-md-10 col-lg-12">
+        <table class="table" id="table">
+            <thead>
+              <tr id="wheader">
+                <th scope="col">Név</th>
+                <th scope="col">Ár</th>
+                <th scope="col">Sebzés</th>
+                <th scope="col">Súly</th>
+                <th scope="col">Tulajdonság</th>
+              </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+          </table>
         </div>
-        <div class="col-lg-3 col-sm-12">
-            <select class="form-select bg-black text-white" id="fegyverselect">
-                <option value="gold">Gold</option>
-                <option value="silver">Silver</option>
-                <option value="bronze">Bronze</option>
-            </select>
-        </div>
+          <div class="col-sm-1 col-md-3 col-lg-12">
+            <div>
+                <button id="gomb" class="btn btn-dark">Convert price</button>
+            </div>
+            <div>
+                <select class="form-select bg-black text-white col-sm-4" id="fegyverselect">
+                    <option value="gold">Gold</option>
+                    <option value="silver">Silver</option>
+                    <option value="bronze">Bronze</option>
+                </select>
+            </div>
+          </div>
       </div>
     </div>
 
