@@ -47,32 +47,36 @@
       <p>Vedd magadhoz a kockát, készíts karaktereket, és kezd el felfedezni a D&D világának végtelen lehetőségeit ebben az adatbázisban!</p>
     </div>
 
-    <div id="fegyverek">
-    <h2>Fegyverek</h2>
-    <table class="table" id="table">
-        <thead>
-          <tr>
-            <th scope="col">Név</th>
-            <th scope="col">Ár</th>
-            <th scope="col">Sebzés</th>
-            <th scope="col">Súly</th>
-            <th scope="col">Tulajdonság</th>
-          </tr>
-        </thead>
-        <tbody id="tbody">
-        </tbody>
-      </table>
+    <div id="fegyverek" class="container">
       <div class="row">
-        <div class="col-lg-1 col-sm-12">
-            <button id="gomb" class="btn btn-dark">Convert price</button>
+        <h2>Fegyverek</h2>
+        <div class="col-sm-9 col-md-10 col-lg-12">
+        <table class="table" id="table">
+            <thead>
+              <tr>
+                <th scope="col">Név</th>
+                <th scope="col">Ár</th>
+                <th scope="col">Sebzés</th>
+                <th scope="col">Súly</th>
+                <th scope="col">Tulajdonság</th>
+              </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+          </table>
         </div>
-        <div class="col-lg-3 col-sm-12">
-            <select class="form-select bg-black text-white" id="fegyverselect">
-                <option value="gold">Gold</option>
-                <option value="silver">Silver</option>
-                <option value="bronze">Bronze</option>
-            </select>
-        </div>
+          <div class="col-sm-1 col-md-3 col-lg-12">
+            <div>
+                <button id="gomb" class="btn btn-dark">Convert price</button>
+            </div>
+            <div>
+                <select class="form-select bg-black text-white col-sm-4" id="fegyverselect">
+                    <option value="gold">Gold</option>
+                    <option value="silver">Silver</option>
+                    <option value="bronze">Bronze</option>
+                </select>
+            </div>
+          </div>
       </div>
     </div>
 
