@@ -4,5 +4,17 @@
 }
 
 #wheader{
-    background-color: blue;
+    background-color: #a56e2a;
+}
+
+.goldbg{
+    background-color: #FFD700;
+}
+
+.silverbg{
+    background-color: #C0C0C0;
+}
+
+.bronzebg{
+    background-color: #CD7F32;
 }

@@ -5,6 +5,8 @@ let dropdown = document.getElementById("fegyverselect");
 function adddata()
 {
     let table = document.getElementById("table");
+    let tbody = document.getElementById("tbody");
+
     if(table.rows.length-1 != 0)
     {
         console.log(adatok.length);
@@ -23,7 +25,7 @@ function adddata()
 
     for (let i=0; i<adatok.length; i++) 
     {
-        let row = table.insertRow(i+1);
+        let row = tbody.insertRow(i);
         let cell1 = row.insertCell(0);
         let cell2 = row.insertCell(1);
         let cell3 = row.insertCell(2);
@@ -35,12 +37,12 @@ function adddata()
         cell4.innerHTML = adatok[i].weight;
         cell5.innerHTML = adatok[i].property;
         console.log(i);
-        
     }
 }
 
 let ToSilver = (i) =>
 {
+
     if(i.includes("gp"))
     {
         i.replace("gp", '');
@@ -61,6 +63,10 @@ let ToSilver = (i) =>
 
 let ToBronze = (i) =>
 {
+    let tbody = document.getElementById("tbody");
+    tbody.className = "";
+    tbody.classList.add("bronzebg");
+
     if(i.includes("gp"))
     {
         i.replace("gp", '');
@@ -82,6 +88,10 @@ let ToBronze = (i) =>
 let ToGold = (i) =>
 {
     
+    let tbody = document.getElementById("tbody");
+    tbody.className = "";
+    tbody.classList.add("goldbg");
+
     if(i.includes("sp"))
     {
         i.replace("sp", '');
@@ -102,6 +112,10 @@ let ToGold = (i) =>
 
 function convert()
 {
+    let tbody = document.getElementById("tbody");
+    tbody.className = "";
+    tbody.classList.add("silverbg");
+
     let value = dropdown.value;
     for (let i of adatok) 
     {
