@@ -35,6 +35,7 @@ function adddata()
         cell4.innerHTML = adatok[i].weight;
         cell5.innerHTML = adatok[i].property;
         console.log(i);
+        
     }
 }
 
@@ -80,6 +81,7 @@ let ToBronze = (i) =>
 
 let ToGold = (i) =>
 {
+    
     if(i.includes("sp"))
     {
         i.replace("sp", '');
