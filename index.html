@@ -4,12 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <title>D&D Weapon Lister</title>
+    <title>D&D database</title>
 </head>
 <body>
-    <div id="response"></div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">D&D Database</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
+    <div class="bevezeto">
+    <h1>Üdvözöllek a D&D (Dungeons & Dragons) adatbázisban!</h1>
+    <p>Ez a rendszer a fantasztikus D&D univerzum kimeríthetetlen tárházát tárja eléd, ahol felfedezheted és tanulmányozhatod az erőket, területeket, szörnyeket, tárgyakat, karaktereket és még sok minden mást, amelyek ezt a lenyűgöző szerepjátékot meghatározzák.</p>
+
+    <p>A Dungeons & Dragons a legrégebbi és legnépszerűbb asztali szerepjáték, amelyet 1974-ben alkottak meg. Azóta világszerte milliók rajonganak érte, akik elmerülnek a kalandokban és izgalmas történetekben, amelyeket egyedülálló fantáziavilágokban élhetnek át. A játékot egy mestervezérelte, narratív rendszer jellemzi, amelyben a játékosok által készített karakterek egy fantasztikus világban küzdenek, felfedeznek és fejlődnek.</p>
+
+    <p>Ez az adatbázis célja, hogy segítse a játékosokat és mestereket a D&D világának felfedezésében és megértésében. Itt megtalálhatod a különböző karakterosztályokat és fajokat, a varázslatokat és képességeket, valamint a különféle tárgyakat és fegyvereket, amelyek lehetővé teszik számodra, hogy karaktereidet testreszabva és izgalmas kalandokba vezetve játszhass.</p>
+
+    <p>Vedd magadhoz a kockát, készíts karaktereket, és kezd el felfedezni a D&D világának végtelen lehetőségeit ebben az adatbázisban!</p>
+    </div>
+
+    <h2>Fegyverek</h2>
     <table class="table" id="table">
         <thead>
           <tr>
@@ -25,7 +59,7 @@
       </table>
       <div class="row">
         <div class="col-lg-1 col-sm-12">
-            <button id="gomb" class="btn btn-dark">Convert</button>
+            <button id="gomb" class="btn btn-dark">Convert price</button>
         </div>
         <div class="col-lg-3 col-sm-12">
             <select class="form-select bg-black text-white" id="select">
