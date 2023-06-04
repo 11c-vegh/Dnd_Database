@@ -20,10 +20,10 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#fegyverek">Fegyverek</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#spellek">Spellek</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">Disabled</a>
@@ -33,7 +33,7 @@
   </nav>
 
     <div class="bevezeto">
-    <h1>Üdvözöllek a D&D (Dungeons & Dragons) adatbázisban!</h1>
+    <h1>Üdvözöllek a D&D adatbázisban!</h1>
     <p>Ez a rendszer a fantasztikus D&D univerzum kimeríthetetlen tárházát tárja eléd, ahol felfedezheted és tanulmányozhatod az erőket, területeket, szörnyeket, tárgyakat, karaktereket és még sok minden mást, amelyek ezt a lenyűgöző szerepjátékot meghatározzák.</p>
 
     <p>A Dungeons & Dragons a legrégebbi és legnépszerűbb asztali szerepjáték, amelyet 1974-ben alkottak meg. Azóta világszerte milliók rajonganak érte, akik elmerülnek a kalandokban és izgalmas történetekben, amelyeket egyedülálló fantáziavilágokban élhetnek át. A játékot egy mestervezérelte, narratív rendszer jellemzi, amelyben a játékosok által készített karakterek egy fantasztikus világban küzdenek, felfedeznek és fejlődnek.</p>
@@ -43,6 +43,7 @@
     <p>Vedd magadhoz a kockát, készíts karaktereket, és kezd el felfedezni a D&D világának végtelen lehetőségeit ebben az adatbázisban!</p>
     </div>
 
+    <div id="fegyverek">
     <h2>Fegyverek</h2>
     <table class="table" id="table">
         <thead>
@@ -62,15 +63,35 @@
             <button id="gomb" class="btn btn-dark">Convert price</button>
         </div>
         <div class="col-lg-3 col-sm-12">
-            <select class="form-select bg-black text-white" id="select">
+            <select class="form-select bg-black text-white" id="fegyverselect">
                 <option value="gold">Gold</option>
                 <option value="silver">Silver</option>
                 <option value="bronze">Bronze</option>
             </select>
         </div>
       </div>
-    
+    </div>
+
+    <div id="spellek" class="container">
+      <div class="row">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon1">Keresés</button>
+          <form>
+            <input type="text" id="shearchtext" class="form-control" placeholder="Keresendő spell">
+          </form>
+        <div class="col-lg-3 col-sm-12">
+          <select id="spellselect" class="form-select bg-black text-white">
+              <option selected>Válassz...</option>
+              <option value="1">Name</option>
+              <option value="2">LvL</option>
+              <option value="3">Dmg</option>
+              <option value="4">Range</option>
+            </select>
+        </div>  
+        <div id="spells" class="col-5"></div>
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script type="module" src="js/index.js"></script>
+    <script type="module" src="js/spellshearch.js"></script>
 </body>
 </html>
