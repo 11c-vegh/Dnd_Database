@@ -1,6 +1,6 @@
 import adatok from "./adatok.json" assert {'type':'json'};
 
-let dropdown = document.getElementById("select");
+let dropdown = document.getElementById("fegyverselect");
 
 function adddata()
 {

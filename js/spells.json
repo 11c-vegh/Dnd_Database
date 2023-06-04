@@ -1,0 +1,65 @@
+ [
+    {
+        "level" :0,
+        "name" : "Eldrich Blast",
+        "cast-time" : "1 action",
+        "range" :"120",
+        "dmg" : "1d10"
+    },
+    {
+        "level" :3,
+        "name" : "Fire Ball",
+        "cast-time" : "1 action",
+        "range" :"60",
+        "dmg" : "8d6"
+    },
+    {
+        "level" :2,
+        "name" : "Burning Hands",
+        "cast-time" : "1 action",
+        "range" :"15",
+        "dmg" : "3d6"
+    },
+    {
+        "level" :1,
+        "name" : "Thunder Wave",
+        "cast-time" : "instantanious",
+        "range" :"15",
+        "dmg" : "1d10"
+    },
+    {
+        "level" :5,
+        "name" : "Bigby's Hand",
+        "cast-time" : "1 action",
+        "range" :"120",
+        "dmg" : "1d10"
+    },
+    {
+        "level" :4,
+        "name" : "Gravity Sinkhole",
+        "cast-time" : "1 action",
+        "range" :"120",
+        "dmg" : "5d10"
+    },
+    {
+        "level" :6,
+        "name" : "Chain Lightning",
+        "cast-time" : "1 action",
+        "range" :"150",
+        "dmg" : "10d8"
+    },
+    {
+        "level" :9,
+        "name" : "Meteor Swarm",
+        "cast-time" : "1 action",
+        "range" :"5280",
+        "dmg" : "40d6"
+    },
+    {
+        "level" :2,
+        "name" : "Cloud of daggers",
+        "cast-time" : "1 action",
+        "range" :"60",
+        "dmg" : "4d4"
+    }
+ ]
