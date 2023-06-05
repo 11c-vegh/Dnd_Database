@@ -88,10 +88,16 @@ let cardBuilder = (spell) =>
     p.classList.add("card-text");
     p.innerHTML = spell.dmg;
     
+    let button =  document.createElement('button');
+    button.setAttribute("type","button");
+    button.setAttribute("onclick", spell.link);
+    button.classList.add("btn");
+    button.classList.add("btn-dark");
     console.log(main);
 
     cbody.appendChild(name);
     cbody.appendChild(p);
+    cbody.appendChild(button);
     main.appendChild(cbody);
     c.appendChild(main);
 
