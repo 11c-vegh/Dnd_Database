@@ -13,7 +13,7 @@
         "cast-time" : "1 action",
         "range" :"60",
         "dmg" : "8d6",
-        "link": "http://dnd5e.wikidot.com/spell:fire-ball"
+        "link": "http://dnd5e.wikidot.com/spell:fireball"
     },
     {
         "level" :2,
@@ -70,5 +70,13 @@
         "range" :"60",
         "dmg" : "4d4",
         "link": "http://dnd5e.wikidot.com/spell:cloud-of-daggers"
+    },
+    {
+        "level" :7,
+        "name" : "Crown of stars",
+        "cast-time" : "1 action",
+        "range" :"self",
+        "dmg" : "4d12",
+        "link": "http://dnd5e.wikidot.com/spell:crown-of-stars"
     }
  ]

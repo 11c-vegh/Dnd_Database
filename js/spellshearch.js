@@ -19,6 +19,7 @@ function cardDelete()
 function shearchTypeDecider()
 {
 
+    cardDelete();
     let type = document.getElementById("spellselect").value;
     let value = document.getElementById("shearchtext").value;
 
@@ -76,6 +77,10 @@ let cardBuilder = (spell) =>
 
     let main = document.createElement('div');
     main.classList.add("card");
+    main.classList.add("col-sm-12");
+    main.classList.add("col-md-6");
+    main.classList.add("col-lg-3");
+    main.classList.add("m-1");
 
     let cbody = document.createElement('div');
     cbody.classList.add("card-body");
@@ -86,11 +91,12 @@ let cardBuilder = (spell) =>
 
     let p = document.createElement('p');
     p.classList.add("card-text");
-    p.innerHTML = spell.dmg;
+    p.innerHTML = "Sebzés: " +spell.dmg + "<br> Távolság: " + spell.range;
     
     let button =  document.createElement('button');
     button.setAttribute("type","button");
-    button.setAttribute("onclick", spell.link);
+    button.addEventListener("click", function () {window.open(spell.link)});
+    button.innerHTML = "Leírás";
     button.classList.add("btn");
     button.classList.add("btn-dark");
     console.log(main);
@@ -106,6 +112,3 @@ let cardBuilder = (spell) =>
 
 let button = document.getElementById("button-addon1");
 button.onclick = shearchTypeDecider;
-
-document.getElementById("spellselect").onchange = cardDelete;
-document.getElementById("shearchtext").addEventListener("change", cardDelete);
