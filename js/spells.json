@@ -4,62 +4,71 @@
         "name" : "Eldrich Blast",
         "cast-time" : "1 action",
         "range" :"120",
-        "dmg" : "1d10"
+        "dmg" : "1d10", 
+        "link" : "http://dnd5e.wikidot.com/spell:eldritch-blast"
     },
     {
         "level" :3,
         "name" : "Fire Ball",
         "cast-time" : "1 action",
         "range" :"60",
-        "dmg" : "8d6"
+        "dmg" : "8d6",
+        "link": "http://dnd5e.wikidot.com/spell:fire-ball"
     },
     {
         "level" :2,
         "name" : "Burning Hands",
         "cast-time" : "1 action",
         "range" :"15",
-        "dmg" : "3d6"
+        "dmg" : "3d6",
+        "link": "http://dnd5e.wikidot.com/spell:burning-hands"
     },
     {
         "level" :1,
         "name" : "Thunder Wave",
         "cast-time" : "instantanious",
         "range" :"15",
-        "dmg" : "1d10"
+        "dmg" : "1d10",
+        "link": "http://dnd5e.wikidot.com/spell:thunder-wave"
     },
     {
         "level" :5,
         "name" : "Bigby's Hand",
         "cast-time" : "1 action",
         "range" :"120",
-        "dmg" : "1d10"
+        "dmg" : "1d10",
+        "link": "http://dnd5e.wikidot.com/spell:bigbis-hand"
     },
     {
         "level" :4,
         "name" : "Gravity Sinkhole",
         "cast-time" : "1 action",
         "range" :"120",
-        "dmg" : "5d10"
+        "dmg" : "5d10",
+        "link": "http://dnd5e.wikidot.com/spell:gravity-sinkhole"
     },
     {
         "level" :6,
         "name" : "Chain Lightning",
         "cast-time" : "1 action",
         "range" :"150",
-        "dmg" : "10d8"
+        "dmg" : "10d8",
+        "link": "http://dnd5e.wikidot.com/spell:chain-lightning"
     },
     {
         "level" :9,
         "name" : "Meteor Swarm",
         "cast-time" : "1 action",
         "range" :"5280",
-        "dmg" : "40d6"
+        "dmg" : "40d6",
+        "link": "http://dnd5e.wikidot.com/spell:meteor-swarm"
     },
     {
         "level" :2,
         "name" : "Cloud of daggers",
         "cast-time" : "1 action",
         "range" :"60",
-        "dmg" : "4d4"
+        "dmg" : "4d4",
+        "link": "http://dnd5e.wikidot.com/spell:cloud-of-daggers"
     }
  ]
