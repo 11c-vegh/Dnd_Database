@@ -1,5 +1,5 @@
 .bevezeto{
-    margin: 30px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -17,4 +17,14 @@
 
 .bronzebg{
     background-color: #CD7F32;
+}
+
+#leiras{
+    margin: 10px;
+}
+
+body{
+    background-image: url("img/depositphotos_16619045-stock-photo-vintage-template.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

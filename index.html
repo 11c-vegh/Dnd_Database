@@ -31,10 +31,9 @@
       </ul>
     </div>
   </nav>
-
     <div class="bevezeto">
     <h1>Üdvözöllek a D&D adatbázisban!</h1>
-    <p>Ez a weboldal arra szolgál, hogy néhány dolgot a DnD 5. változatából gyorsan meg lehessen keresni. Ilyen például a varázslatok és fegyverek sebzése, vagy a varázslatok szintje.</p>
+    <h6>Ez a weboldal arra szolgál, hogy néhány dolgot a DnD 5. változatából gyorsan meg lehessen keresni. Ilyen például a varázslatok és fegyverek sebzése, vagy a varázslatok szintje.</h6>
     </div>
 
     
@@ -48,12 +47,13 @@
 
       <p>Vedd magadhoz a kockát, készíts karaktereket, és kezd el felfedezni a D&D világának végtelen lehetőségeit ebben az adatbázisban!</p>
     </div>
+    <hr>
 
     <div id="fegyverek" class="container">
 
       <div class="row">
         <h2>Fegyverek</h2>
-        <div class="col-sm-9 col-md-10 col-lg-12">
+        <div class="col-sm-12 col-md-10 col-lg-9">
         <table class="table" id="table">
             <thead>
               <tr id="wheader">
@@ -68,11 +68,11 @@
             </tbody>
           </table>
         </div>
-          <div class="col-sm-1 col-md-3 col-lg-12">
-            <div>
+          <div class="">
+            <div class="col-3">
                 <button id="gomb" class="btn btn-dark">Convert price</button>
             </div>
-            <div>
+            <div class="col-3">
                 <select class="form-select bg-black text-white col-sm-4" id="fegyverselect">
                     <option value="gold">Gold</option>
                     <option value="silver">Silver</option>
@@ -82,9 +82,13 @@
           </div>
       </div>
     </div>
+    <hr>
+
+    
 
     <div id="spellek" class="container">
       <div class="row">
+        <h2>Spellek</h2>
           <button class="btn btn-outline-secondary" type="button" id="button-addon1">Keresés</button>
           <form>
             <input type="text" id="shearchtext" class="form-control" placeholder="Keresendő spell">
