@@ -78,5 +78,13 @@
         "range" :"self",
         "dmg" : "4d12",
         "link": "http://dnd5e.wikidot.com/spell:crown-of-stars"
+    },
+    {
+        "level" :8,
+        "name" : "Clone",
+        "cast-time" : "1 hour",
+        "range" :"self",
+        "dmg" : "none",
+        "link": "http://dnd5e.wikidot.com/spell:crown-of-stars"
     }
  ]
